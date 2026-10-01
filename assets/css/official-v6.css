@@ -1,0 +1,50 @@
+/* Official copy and supplied portraits. Proportional cropping, never stretching. */
+.section-lead,.team-intro,.practice-overview{max-width:900px;color:#514a47;line-height:1.85;font-size:1.08rem}
+.section-lead{margin:-8px 0 32px}.team-intro,.practice-overview{padding:28px 0 6px}
+.official-intro{max-width:990px;display:flex;align-items:flex-end;gap:48px}
+.official-intro p{font-size:clamp(1.14rem,2vw,1.43rem);line-height:1.8;flex:1}
+.official-intro-action{white-space:nowrap}
+.reason-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.reason-grid article,.official-prose-grid article{background:#fff;border:1px solid var(--stone);padding:28px;border-radius:12px}
+.reason-grid span{display:block;color:var(--accent);font:700 .78rem var(--sans);margin-bottom:18px}
+.reason-grid h3,.official-prose-grid h3{font-size:1.2rem;color:var(--wine);margin-bottom:12px}
+.reason-grid p,.official-prose-grid p{font-size:.96rem;line-height:1.82;color:#514a47}
+.official-values{grid-template-columns:repeat(3,minmax(0,1fr))}
+.official-prose-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.people-grid .portrait{height:auto;aspect-ratio:4/5;background:#ebe8e4}
+.portrait::after{display:none}
+.portrait img{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.portrait[data-photo="P14"] img{object-position:center 20%}
+.portrait[data-photo="P15"] img{object-position:center 15%}
+.portrait[data-photo="P16"] img{object-position:center 17%}
+.featured-person .portrait{height:380px;aspect-ratio:auto}
+.profile-grid .portrait-large{height:460px;aspect-ratio:auto;background:#eee9e5}
+.person-info p{color:#68605c;font-size:.91rem;line-height:1.55;margin:10px 0 15px}
+.official-tags{display:flex;flex-wrap:wrap;gap:12px}
+.official-tags a{border:1px solid var(--stone);padding:12px 18px;background:#fff;color:var(--wine);border-radius:9px;text-decoration:none}
+.official-tags a:hover,.official-tags a:focus-visible{border-color:var(--accent);background:#f8f4ef}
+.practice-official{padding:42px 0 60px;border-top:1px solid var(--soft-line)}
+.practice-official-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(25px,5vw,85px);align-items:start}
+.practice-official h2{font-size:clamp(1.55rem,2.6vw,2.5rem);line-height:1.35;color:var(--wine);max-width:680px;margin:0 0 25px}
+.practice-official p{max-width:720px;line-height:1.87;color:#514a47;margin:0 0 17px}
+.practice-services{padding:26px;background:#f7f4ef;border-radius:16px}
+.practice-services h3{color:var(--wine);font-size:1.18rem;margin:0 0 12px}
+.practice-services ul{margin:0;padding:0;list-style:none}
+.practice-services li{padding:10px 0 10px 18px;border-bottom:1px solid #ded6cc;line-height:1.55;position:relative}
+.practice-services li:last-child{border-bottom:0}
+.practice-services li::before{content:'•';color:var(--accent);position:absolute;left:0}
+.contact-info>p{line-height:1.8;color:#514a47}
+.contact-line a{color:var(--wine);font-weight:700;text-decoration-thickness:1px;text-underline-offset:4px;overflow-wrap:anywhere}
+.contact-line strong{font-weight:600;line-height:1.6;text-align:right}
+.contact-address{min-height:260px}
+.contact-address a{color:var(--wine);font-weight:700;text-underline-offset:4px}
+.prep-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.prep-list>div{background:#fff;border:1px solid var(--stone);border-radius:12px;padding:22px}
+.prep-list span{color:var(--accent);font:700 .75rem var(--sans)}
+.prep-list p{line-height:1.65;margin:14px 0 0;color:#514a47}
+.contact-note{max-width:900px;margin:28px 0 0;color:#5c5552;line-height:1.82}
+.consultation-contact{display:flex;flex-direction:column;gap:8px;margin:22px 0}
+.consultation-contact a{color:var(--wine);font-weight:700;text-underline-offset:4px;overflow-wrap:anywhere}
+.site-footer .footer-grid small{line-height:1.55}
+@media(max-width:900px){.reason-grid,.official-values,.prep-list{grid-template-columns:repeat(2,minmax(0,1fr))}.practice-official-grid{grid-template-columns:1fr}.practice-services{max-width:none}.official-intro{display:block}.official-intro-action{margin-top:16px}}
+@media(max-width:720px){.reason-grid,.official-values,.official-prose-grid,.prep-list{grid-template-columns:1fr}.people-grid .portrait{height:100%;min-height:200px;aspect-ratio:auto}.person-info p{font-size:.83rem}.featured-person .portrait{height:360px}.profile-grid .portrait-large{height:380px}.practice-official{padding:36px 0 50px}.contact-line strong{text-align:left}.contact-address{display:block;padding:30px}.contact-address .map-symbol{margin-bottom:18px}}
